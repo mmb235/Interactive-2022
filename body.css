@@ -3,7 +3,7 @@ a:visited {
 }
 
 a:hover {
-  color:skyblue;
+  color:lightpink;
 }
 
 a:active {
@@ -13,21 +13,21 @@ a:active {
 h1 {
    font-family: "Helvetica", serif;
   color: black;
-  font-weight: medium;
- font-size: 50;
+  font-weight: bold;
+     text-decoration: none;
+ font-size: 60px;
  }
-.href{
-  font-size: 20;
-}
 
 body {
-  background-color: lightpink;
+  background-color:lightpink;
    font-family: "Helvetica", serif;
    color: green;
+   text-decoration: none;
+    font-size: 20px;
  }
 .col1 {
     float:left; 
-    width:35%;
+    width:32%;
     margin-left:10% ;
     margin-top: 5%;
     font-family: "Helvetica", serif;
@@ -36,7 +36,7 @@ body {
 
 .col2 {
     float:right; 
-    width:35%;
+    width:32%;
     margin-right:10% ;
        margin-top: 5%;
     font-family: "Helvetica", serif;
