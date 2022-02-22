@@ -1,33 +1,30 @@
 a:visited {
-  color: green;
-   text-decoration: none;
+  color:green;
 }
 
 a:hover {
-  color: hotpink;
-   text-decoration: none;
+  color:skyblue;
 }
 
 a:active {
-  color: blue;
-   text-decoration: none;
+  color: green;
 }
 
-body {
-  background-color: paleturquoise;
-   font-family: "Helvetica", serif;
-}
 h1 {
    font-family: "Helvetica", serif;
   color: black;
   font-weight: medium;
-
+ font-size: 50;
+ }
+.href{
+  font-size: 20;
 }
-p {
-  color: blue;
-  font-family: "Helvetica", serif;
-}
 
+body {
+  background-color: lightpink;
+   font-family: "Helvetica", serif;
+   color: green;
+ }
 .col1 {
     float:left; 
     width:35%;
@@ -39,8 +36,7 @@ p {
 
 .col2 {
     float:right; 
-    width:35%; 
-    background-color: lightpink;
+    width:35%;
     margin-right:10% ;
        margin-top: 5%;
     font-family: "Helvetica", serif;
