@@ -1,15 +1,49 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
+a:visited {
+  color: green;
+   text-decoration: none;
 }
 
-.container {
-  column-count: 2;
-  column-rule-style: solid;
-  column-rule-color: blue;
+a:hover {
+  color: hotpink;
+   text-decoration: none;
 }
+
+a:active {
+  color: blue;
+   text-decoration: none;
+}
+
+body {
+  background-color: paleturquoise;
+   font-family: "Helvetica", serif;
+}
+h1 {
+   font-family: "Helvetica", serif;
+  color: black;
+}
+p {
+  color: blue;
+  font-family: "Helvetica", serif;
+}
+
+.col1 {
+    float:left; 
+    width:35%;
+    margin-left:10% ;
+    margin-top: 10%;
+    font-family: "Helvetica", serif;
+     line-height: 2 ;
+}
+
+.col2 {
+    float:right; 
+    width:35%; 
+    background-color: lightpink;
+    margin-right:10% ;
+       margin-top: 10%;
+    font-family: "Helvetica", serif;
+     line-height: 2 ;
+}
+
+
+
