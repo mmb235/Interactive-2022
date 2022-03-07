@@ -3,6 +3,14 @@ a:visited {
    text-decoration: none;
 }
 
+p {
+ cfont-family: "Helvetica", serif;
+  color: black;
+  font-weight: bold;
+  text size: 100 px;
+
+}
+
 a:hover {
   color:black;
   text-decoration: none;
@@ -65,4 +73,20 @@ body {
 }
 
 
+.container {
+  position: relative;
+  position:  center;
+  width: 50%;
+  length:  100%;
+  margin-left: 40 px;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  color: black;
+}
 
