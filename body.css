@@ -21,8 +21,8 @@ top: 100%;
 
 .img__wrap {
   position: relative;
-  width: 50%;
-  position:right; left:50px; top:50px
+  width: 30%;
+   left:200px; top:50px
  }
 
  .img__wrap:hover .img__description {
@@ -56,8 +56,8 @@ top: 100%;
 
 .img__wrap2 {
   position: relative;
-  width: 20%;
-  position:right; left:600px;
+  width: 30%;
+ left:600px; top:50px
  }
 
 .img__wrap2:hover .img__description2 {
