@@ -1,12 +1,28 @@
 
 
-.img__wrap {
-  position: relative;
-  width: 30%;
-   left:400px; top:50px
- }
 
- .img__wrap:hover .img__description {
+p {
+ cfont-family: "Helvetica", serif;
+  color: black;
+  font-weight: bold;
+  text size: 100 px;
+
+}
+
+a:visited {
+  color:blue;
+  text-decoration: none;
+  font-size: 100 px;
+}
+
+
+html {
+  scroll-behavior:smooth;
+  
+
+  }
+
+  .img__wrap:hover .img__description {
   visibility: visible;
   opacity: 1;
 }
@@ -35,51 +51,31 @@
   transition: opacity .2s, visibility .2s;
 }
 
-.img__wrap2 {
-  position: relative;
-  width: 30%;
- left:600px; top: 50 px; bottom: 100 px;
- }
 
 .img__wrap2:hover .img__description2 {
   visibility: visible;
   opacity: 1;
 }
 
+ .img__wrap2 {
+  position: relative;
+    width: 40%;
+   top: 50 px;
+    float: right;
+ }
 
-}
+.img__wrap {
+  position: relative;
+  width: 40%;
+   top:50px;
+   float: left  ;
+ }
+ 
 a {
   color: black;
   text size: 50;
   text-decoration: none;
 }
-
-
-p {
- cfont-family: "Helvetica", serif;
-  color: black;
-  font-weight: bold;
-  text size: 100 px;
-
-}
-
-a:visited {
-  color:blue;
-  text-decoration: none;
-  font-size: 100 px;
-}
-
-
-html {
-  scroll-behavior:smooth;
-  
-
-  }
-
-  a.ref {
-    text-decoration: bold;
-  }
-
 
 h1 {
    font-family: "Helvetica", serif;
@@ -96,7 +92,8 @@ body {
    color: green;
    text-decoration: none;
     font-size: 20px;
-    height: 1000 px;
  }
+
+
 
 
