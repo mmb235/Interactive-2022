@@ -1,21 +1,10 @@
-div {
-display: flex;
-justify-content: center;
-position: relative;
-  top: 80%;
-height:  1500 px;
 
-}
-
-.container {
-top: 100%;
-}
 
 .centered {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
 
 }
 
@@ -85,7 +74,7 @@ p {
 a:hover {
   color:black;
   text-decoration: none;
-  font-size: 100;
+  font-size: 100 px;
 }
 
 
@@ -105,7 +94,7 @@ h1 {
   color: black;
   font-weight: bold;
      text-decoration: none;
- font-size: 60px;
+ font-size: 40px;
  }
 
 body {
@@ -114,7 +103,7 @@ body {
    font-family: "Helvetica", serif;
    color: green;
    text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     height: 1000 px;
  }
 
