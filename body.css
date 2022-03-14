@@ -1,5 +1,7 @@
-
-
+#footer {
+    position: absolute;
+    bottom: 0;
+}
 
 p {
  cfont-family: "Helvetica", serif;
@@ -10,7 +12,7 @@ p {
 }
 
 a:visited {
-  color:blue;
+  color: green;
   text-decoration: none;
   font-size: 100 px;
 }
@@ -29,11 +31,11 @@ html {
 
 .img__description {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   visibility: hidden;
+  top: 10%;
+  left: 10%;
+  bottom: 0;
+  right: 0;
   opacity: 0;
   transition: opacity .2s, visibility .2s;
 }
@@ -41,9 +43,9 @@ html {
 
  .img__description2 {
   position: absolute;
-  top: 0;
+  top: 10%;
+ left: 0;
   bottom: 0;
-  left: 0;
   right: 0;
   color: black;
   visibility: hidden;
@@ -59,18 +61,20 @@ html {
 
  .img__wrap2 {
   position: relative;
-    width: 40%;
-   top: 50 px;
+    width: 37%;
+    right: 5%;
+   top: 20 px;
     float: right;
  }
 
 .img__wrap {
   position: relative;
-  width: 40%;
-   top:50px;
+  width: 37%;
+  left: 30%;
+   top:30%;
    float: left  ;
  }
- 
+
 a {
   color: black;
   text size: 50;
