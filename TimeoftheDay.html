@@ -1,30 +1,180 @@
-<!DOCTYPE html>
-<html> 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Input-Output</title>
-    <style>
-    </style>
-  </head>
-  <body>
-    <label for="hours">Choose a time</label>
+<html>  
+<head>  
+<style>  
+.dropbtn {  
+  background-color: pink; 
+  border: none; 
+  color: white; 
+  padding: 14px;  
+  font-size: 100px;  
+  cursor: pointer;  
+}  
+  
+.dropbtn:hover {  
+  background-color: brown;  
+}  
+  
+.dropdown {  
+  position: relative;  
+  display: inline-block;  
+}  
+  
+.dropdown-content {  
+  display: none;  
+  position: absolute;  
+  background-color: white;  
+  min-width: 140px;  
+  overflow: auto;  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+}  
+  
+.dropdown-content a {  
+  color:pink;  
+  padding: 12px 16px;  
+  text-decoration: none;  
+  display: block;  
+}  
+  
+.dropdown a:hover {  
+   background-color: blue;  
+ }  
+  
+.show {  
+  display: block;  
+}  
+</style>  
+</head>  
+<body align = "center">
+   
+  
+<div class="dropdown">  
+  <button onclick="timeofthedaylist()" class="dropbtn">Choose a time of the day...</button>  
+  <div id="myDropdown1" class="dropdown-content">  
+   
+    <a href="#python" onclick="zero()">12 AM</a>  
+    <a href="#python" onclick="first()">1 AM</a>  
+    <a href="#python" onclick="second()">2 AM</a>  
+    <a href="#python" onclick="third()">3AM</a>  
+    <a href="#python" onclick="fourth()">4 AM</a>  
+    <a href="#python" onclick="fifth()">5 AM</a>  
+    <a href="#python" onclick="sixth()">6 AM</a>  
+    <a href="#python" onclick="seventh()">7 AM</a>  
+    <a href="#python" onclick="eighth()">8 AM</a>
+    <a href="#python" onclick="ninth()">9 AM</a>  
+    <a href="#python" onclick="tenth()">10 AM</a>  
+    <a href="#python" onclick="eleventh()">11 AM</a>  
+    <a href="#python" onclick="twelfth()">12 PM</a>  
+    <a href="#python" onclick="thirteenth()">1 PM</a>  
+    <a href="#python" onclick="fourteenth()">2 PM</a>  
+    <a href="#python" onclick="fifteenth()">3 PM</a>   
+     <a href="#python" onclick="sixteenth()">4 PM</a>  
+    <a href="#python" onclick="seventeenth()">5 PM</a>  
+    <a href="#python" onclick="eighteenth()">6 PM</a>  
+    <a href="#python" onclick="nineteenth()">7 PM</a>  
+    <a href="#python" onclick="twentieth()">8 PM</a>  
+    <a href="#python" onclick="twentyfirst()">9 PM</a>
+    <a href="#python" onclick="twentysecond()">10 PM</a>  
+    <a href="#python" onclick="twentythird()">11 PM</a>  
+ 
+</div>  
+     
+<script>   
+function timeofthedaylist() {  
+  document.getElementById("myDropdown1").classList.toggle("show");  
+}  
 
-    <select name="hours" id="hours">
-      <option value="0">1</option>
-      <option value="1">2</option>
-      <option value="2">3</option>
-      <option value="3">4</option>
-      <option value="4">5</option>
-      <option value="5">6</option>
-      <option value="6">7</option>
-    </select>
+ function zero() {  
+   window.location.replace("https://www.youtube.com/watch?v=3xKUiva2WSQ"); 
 
-    <h1 class="message"></h1>
+function first() {  
+   window.location.replace("https://www.youtube.com/watch?v=nqAvFx3NxUM");  
+}  
+function second() {  
+   window.location.replace("https://www.youtube.com/watch?v=-1d8EX8uE5U");  
+}  
+function third() {  
+   window.location.replace("https://www.youtube.com/watch?v=_FrOQC-zEog");  
+}  
+function fourth() {  
+   window.location.replace("https://www.javatpoint.com/c-programming-language-tutorial");  
+}  
+function fifth() {  
+   window.location.replace("https://www.youtube.com/watch?v=vqZY8P42pLo");  
+}  
+function sixth() {  
+   window.location.replace("https://www.javatpoint.com/mongodb-tutorial");  
+}  
+function seventh() {  
+   window.location.replace("https://www.javatpoint.com/cassandra-tutorial");  
+}  
+function eighth() {  
+   window.location.replace("https://www.javatpoint.com/php-tutorial");  
+}  
+function ninth() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+}  
+function tenth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial");  
+}  
 
-    
-    <script src="TimeoftheDay.js"></script>
+}  
+function eleventh() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+}  
+function twelfth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
 
+   }  
+function thirteenth() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+}  
+function fourteenth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+   }  
+function fifteenth() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+}  
+function sixteenth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+  
+  }  
+function seventeenth() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+   } 
+function eighteenth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+  } 
+function nineteenth() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+  
+  }  
+function twentieth() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+   } 
+function twentyfirst() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+   }  
+function twentysecond() {  
+   window.location.replace("https://www.javatpoint.com/javascript-tutorial"); 
+  
+  }  
+function twentythird() {  
+   window.location.replace("https://www.javatpoint.com/css-tutorial");  
+   } 
 
-  </body>
-</html>
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+</script>  
+  
+</body>  
+</html>  
