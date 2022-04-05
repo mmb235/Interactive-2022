@@ -1,5 +1,13 @@
-.message {
-text-decoration-color: red;
-position:center;
+.center {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 700px;
+
+  color: red;
 
 }
