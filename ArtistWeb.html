@@ -1,0 +1,292 @@
+<html>  
+<head>  
+
+<link rel="stylesheet" href="ArtistWeb.css">
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Artist Web</title>
+  </head>
+
+
+  <body>
+
+    <a href="https://airtable.com/appOCWMo9JcDNrYle/tblED7zMcznQRwZPd/viwFYI04iVezomb0X?blocks=hide">airtable link</a>
+</div>
+
+    <!-- the HTML includes a template. With JS, we'll put content from airtable into these divs. -->
+    <div id="slide">
+      <div id="slide-text"></div>
+    </div>
+
+    <!-- load the JS files -->
+    <script src="js/airtable.browser.js"></script>
+    <script src="js/main.js"></script>
+</html>
+
+<h1 id="top"><p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <center><font size="20">Please add a link to artists you find relate to these first six, to begin creating a web of artists...</h1>
+
+
+<style>  
+
+
+.dropbtn {  
+  background-color: limegreen; 
+  border: none; 
+  color: white; 
+  padding: 14px;  
+  font-size: 20px;  
+  cursor: pointer;  
+}  
+
+  
+.dropdown {  
+  position: relative;  
+  display: inline-block;  
+}  
+  
+.dropdown-content {  
+  display: none;  
+  position: absolute;  
+  background-color: white;  
+  min-width: 140px;  
+  overflow: auto;  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+}  
+  
+.dropdown-content a {  
+  color:black;  
+  padding: 12px 16px;  
+  text-decoration: bold;  
+  display: block;  
+}  
+  
+.dropdown a:hover {  
+   background-color: pink;  
+ }  
+  
+.show {  
+  display: block;  
+}  
+</style>  
+</head>  
+<body align = "center">
+   
+  
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Doris Salcedo</button>  
+  <div id="myDropdown1" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Doris Salcedo</a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown1").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("https://whitecube.com/artists/artist/doris_salcedo/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+</script>  
+
+<p>
+   <p>
+         <p>
+         <p>
+                     <p>
+                           <p>
+                                 <p>
+                                       <p>
+                                             <p>
+
+
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Nari Ward</button>  
+  <div id="myDropdown2" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Nari Ward </a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown2").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("https://www.nariwardstudio.com/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+
+</script>
+
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Ursula von Rydingsvard</button>  
+  <div id="myDropdown3" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Ursula von Rydingsvard </a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown3").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("https://ursulavonrydingsvard.net/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+
+</script>
+
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Francis Bacon</button>  
+  <div id="myDropdown4" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Francis Bacon</a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown4").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("https://www.francis-bacon.com/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+
+</script>
+
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Es Devlin</button>  
+  <div id="myDropdown5" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Es Devlin</a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown5").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("https://esdevlin.com/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+
+</script>
+
+<div class="dropdown">  
+  <button onclick="artistweb()" class="dropbtn">Alexander McQueen</button>  
+  <div id="myDropdown6" class="dropdown-content">  
+   
+   <a href="#python" onclick="zero()">Alexander McQueen</a>  
+    
+    </div>  
+</div>  
+     
+<script>   
+function artistweb() {  
+  document.getElementById("myDropdown6").classList.toggle("show");  
+}  
+
+ function zero() {  
+   window.location.replace("http://www.vam.ac.uk/content/exhibitions/exhibition-alexander-mcqueen-savage-beauty/about-the-exhibition/"); 
+}
+
+
+window.onclick = function(event) {  
+  if (!event.target.matches('.dropbtn')) {  
+    var dropdowns = document.getElementsByClassName("dropdown-content");  
+    var i;  
+    for (i = 0; i < dropdowns.length; i++) {  
+      var openDropdown = dropdowns[i];  
+      if (openDropdown.classList.contains('show')) {  
+        openDropdown.classList.remove('show');  
+      }  
+    }  
+  }  
+}  
+
+</script>
+
+
+  
+</body>  
+</html>  
