@@ -5,3 +5,7 @@ justify-content:space-evenly;
 
 #currencyAmount{
 text-align:center;}
+
+.dropbtn {
+  border: 2px solid red;
+  border-radius: 25 px;
