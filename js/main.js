@@ -75,48 +75,38 @@ function showRows() {
         if (row.fields.NariWard) {
             const link = document.createElement("a");
             link.innerText = row.fields.NariWardDisplay;
-            link.innerText = row.fields.NariWard;
+            link.href = row.fields.NariWard;
             $("#NariWard").append(link);
         }
 
         if (row.fields.UrsulavonRydingsvard) {
             const link = document.createElement("a");
             link.innerText = row.fields.UrsulavonRydingsvardDisplay;
-            link.innerText = row.fields.UrsulavonRydingsvard;
+            link.href = row.fields.UrsulavonRydingsvard;
             $("#UrsulavonRydingsvard").append(link);
         }
 
          if (row.fields.FrancisBacon) {
             const link = document.createElement("a");
             link.innerText = row.fields.FrancisBaconDisplay;
-            link.innerText = row.fields.FrancisBacon;
+            link.href = row.fields.FrancisBacon;
             $("#FrancisBacon").append(link);
         }
 
         if (row.fields.EsDevlin) {
             const link = document.createElement("a");
-             link.innerText = row.fields.EsDevlinDisplay;
-            link.innerText = row.fields.EsDevlin;
+            link.innerText = row.fields.EsDevlinDisplay;
+            link.href = row.fields.EsDevlin;
             $("#EsDevlin").append(link);
         }
 
          if (row.fields.AlexanderMcQueen) {
             const link = document.createElement("a");
             link.innerText = row.fields.AlexanderMcQueenDisplay;
-            link.innerText = row.fields.AlexanderMcQueen;
+            llink.href = row.fields.AlexanderMcQueen;
             $("#AlexanderMcQueen").append(link);
         }
         
         
-
-        // uncomment this code to add the description column from the table.
-        // const div = document.createElement("div");
-        // div.innerText = row.fields.Description;
-        // document.body.appendChild(div);
-
-        // uncomment this code to add the images from the table.
-        // const image = document.createElement("img");
-        // image.src = row.fields.icon[0].url;
-        // document.body.appendChild(image);
     })
 }
