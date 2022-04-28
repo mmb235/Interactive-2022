@@ -24,20 +24,27 @@
 
 <style>  
 
+body {
+
+  background-color: lightgoldenrodyellow;
+}
 
 .dropbtn {  
   background-color: white; 
   border: none; 
   color: black; 
+  font-family:andale mono;
   border-width: 20 px;
   padding: 14px;  
-  font-size: 40px;  
+  font-size: 20px;  
   cursor: pointer;  
+  border-radius: 50px;
+  margin-top: 300px;
 }  
 
   
 .dropbtn:hover {  
-  background-color: yellowgreen;  
+  background-color: red;  
 }  
 
   
@@ -49,11 +56,15 @@
 .dropdown-content {  
   display: none;  
   position: absolute;  
-  background-color: white;  
-  min-width: 140px;  
+  background-color: white;
+    border-radius: 50px;
+  font-family:andale mono;  
+  min-width: 500px;  
   overflow: auto;  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
 }  
+
+
   
 .dropdown-content a {  
   color:black;  
@@ -63,7 +74,7 @@
 }  
   
   .dropdown a:hover {  
-   background-color: yellowgreen;  
+   background-color: red;  
  } 
   
 .show {  
@@ -72,6 +83,7 @@
 </style>  
 </head>  
 <body align = "center">
+
    
   
 <div class="dropdown">  
@@ -114,9 +126,6 @@
    
   </div>  
 </div>
-
-
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/airtable.browser.js"></script>

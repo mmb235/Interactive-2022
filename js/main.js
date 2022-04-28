@@ -103,7 +103,7 @@ function showRows() {
          if (row.fields.AlexanderMcQueen) {
             const link = document.createElement("a");
             link.innerText = row.fields.AlexanderMcQueenDisplay;
-            llink.href = row.fields.AlexanderMcQueen;
+            link.href = row.fields.AlexanderMcQueen;
             $("#AlexanderMcQueen").append(link);
         }
         
