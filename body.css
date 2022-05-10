@@ -1,10 +1,10 @@
 #footer {
     position: absolute;
-    bottom: 0;
+    bottom: -20%;
 }
 
 p {
- cfont-family: "Helvetica", serif;
+ font-family: "Helvetica", serif;
   color: black;
   font-weight: bold;
   text size: 100 px;
@@ -12,7 +12,7 @@ p {
 }
 
 a:visited {
-  color: green;
+  color: red;
   text-decoration: none;
   font-size: 100 px;
 }
@@ -20,27 +20,9 @@ a:visited {
 
 html {
   scroll-behavior:smooth;
+
+}
   
-
-  }
-
-  .img__wrap:hover .img__description {
-  visibility: visible;
-  opacity: 1;
-}
-
-.img__description {
-  position: absolute;
-  visibility: hidden;
-  top: 10%;
-  left: 10%;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-}
-
-
  .img__description2 {
   position: absolute;
   top: 10%;
@@ -67,13 +49,32 @@ html {
     float: right;
  }
 
+
+.img__description {
+  position: absolute;
+  visibility: hidden;
+  top: 10%;
+  left: 5%;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+
+  .img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .img__wrap {
   position: relative;
   width: 37%;
-  left: 30%;
+  left: 5%;
    top:30%;
    float: left  ;
  }
+
 
 a {
   color: black;
