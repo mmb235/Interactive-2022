@@ -12,7 +12,7 @@ p {
 }
 
 a:visited {
-  color: red;
+  color: rebeccapurple;
   text-decoration: none;
   font-size: 100 px;
 }
@@ -22,6 +22,33 @@ html {
   scroll-behavior:smooth;
 
 }
+
+
+ .img__description3 {
+  position: absolute;
+  top: 15%;
+ left: 0;
+  bottom: 0;
+  right: 0;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+
+.img__wrap3:hover .img__description3 {
+  visibility: visible;
+  opacity: 1;
+}
+
+ .img__wrap3 {
+  position: relative;
+    width: 35%;
+   top: 20 px;
+   left: 30%;
+    float: center;
+ }
   
  .img__description2 {
   position: absolute;
