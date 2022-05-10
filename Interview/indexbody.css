@@ -5,6 +5,12 @@ html {
 
   }
 
+  a:visited {
+  color: green;
+  text-decoration: none;
+  font-size: 100 px;
+}
+
   
 
 
